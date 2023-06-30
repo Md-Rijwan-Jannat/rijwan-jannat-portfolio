@@ -6,7 +6,7 @@ const Footer = () => {
     const currentYear = moment().format('Y');
     return (
         <div className='p-10 bg-[#120c3a] text-gray-500 pb-12 rounded-t-2xl'>
-            <footer className="footer">
+            <footer className="footer lg:grid">
                 <div>
                     <span className="footer-title">Talk about us me!</span>
                     <div className="avatar online">
@@ -36,7 +36,7 @@ const Footer = () => {
                             <span className="label-text text-gray-500 ">Enter your email address</span>
                         </label>
                         <div className="relative">
-                            <input type="text" placeholder="username@site.com" className="input border bg-opacity-10 border-slate-800 w-full pr-16" />
+                            <input type="text" placeholder="username@site.com" className="input border bg-opacity-10 border-slate-800 w-f1/2 lg:w-full lg:pr-16" />
                             <button className="btn bg-blue-700 hover:bg-[#150c55] border-gray-500 text-slate-300 absolute top-0 right-0 rounded-l-none">Subscribe</button>
                         </div>
                     </div>
