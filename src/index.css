@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  color: rgba(40, 35, 35, 0.477);
+}
+#sidebar a.active {
+  color: rgb(255, 221, 0);
+  text-transform: none;
+}
+.menu a.active {
+  color: yellow;
+}
+
+.menu a {
+  background-color: transparent;
+}
+
+@keyframes gradientAnimation {
+  0% {
+      color: #3e6184;
+  }
+  10% {
+      color: #ef8640;
+  }
+  20% {
+      color: #b0993c;
+  }
+  30% {
+      color: #839539;
+  }
+  40% {
+      color: #4f4987;
+  }
+  50% {
+      color: #487548;
+  }
+  60% {
+      color: #569d73;
+  }
+  70% {
+      color: #45897b;
+  }
+  80% {
+      color: #387787;
+  }
+  90% {
+      color: #1b5fc5;
+  }
+  100% {
+      color: #7c7cf3;
+  }
+}
+
+.gradient-animation {
+  animation: gradientAnimation 5s linear infinite;
+}
+.align-item{
+  align-items: baseline;
+}
+
