@@ -16,9 +16,6 @@ const About = () => {
         <div className="my-16">
             <SectionTitle title={'about me'} icon={<FaBoxes />} />
             <Helmet><title>Rijwan jannat | About</title></Helmet>
-            <motion.div
-                whileHover={{ scale: 1.1 }}
-            >
                 <div className="lg:flex items-center bg-[#161042] shadow-lg px-5 py-10 mx-5 lg:p-16 rounded-2xl">
                     <div className="flex flex-col justify-start w-full">
                         <h2 className="uppercase text-2xl text-gray-500 mb-3">From</h2>
@@ -32,7 +29,6 @@ const About = () => {
                         <p className="text-gray-500 text-xl"> I am studying in Bogura Polytechnic Institute, Bangladesh. Now, I am learning tow technologies, 1st Computer Science Engineering or 2nd Mechanical Engineering</p>
                     </div>
                 </div>
-            </motion.div>
         </div>
 
     );

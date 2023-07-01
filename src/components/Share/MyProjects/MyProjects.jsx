@@ -9,9 +9,6 @@ export const MyComponent = () => (
 )
 const MyProjects = ({ image, name, link1, link2, link3, details }) => {
     return (
-        <motion.div
-        whileHover={{ scale: 1.1 }}
-        >
             <div className="flex flex-col items-center bg-[#161042] shadow-lg mb-7 mt-7 px-5 py-10 mx-5 lg:p-16 rounded-2xl">
                 <div className="flex flex-col items-center">
                     <img className="rounded-xl lg:w-1/2" src={image} alt="" />
@@ -44,7 +41,6 @@ const MyProjects = ({ image, name, link1, link2, link3, details }) => {
                     </motion.div>
                 </div>
             </div>
-        </motion.div>
 
     );
 };

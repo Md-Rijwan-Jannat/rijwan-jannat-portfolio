@@ -19,11 +19,8 @@ const Contact = () => {
         <div className="my-16">
             <SectionTitle title={'Contact'} icon={<FaMailBulk />} />
             <Helmet><title>Rijwan jannat | Contact</title></Helmet>
-            <motion.div
-                whileHover={{ scale: 1.1 }}
-            >
                 <div className="flex flex-col items-center bg-[#161042] shadow-lg py-10 mx-5  lg:p-16 rounded-2xl">
-                    <form onSubmit={handleSubmit(onSubmit)} className="lg:w-1/2 border border-gray-600 rounded-md p-10">
+                    <form onSubmit={handleSubmit(onSubmit)} className="lg:w-1/2 rounded-md">
                         <div className="flex flex-col gap-5 w-full">
                             <div className="w-full mb-4">
                                 <h4 className="text-xl text-gray-500 uppercase mb-2">Your Name *</h4>
@@ -41,7 +38,7 @@ const Contact = () => {
                             <motion.div
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
-                                className="p-2 shadow-sm text-sm lg:text-lg  rounded-md px-4 py-1 shadow-black bg-opacity-50 bg-[#12104d] text-gray-500 text-center"
+                                className="shadow-sm text-sm lg:text-lg  rounded-md px-5 py-1 shadow-black bg-opacity-50 bg-[#12104d] text-gray-500 text-center"
                             >
                                 <input className="" type="submit" />
                             </motion.div>
@@ -59,8 +56,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
-            </motion.div>
         </div>
     )
 }
