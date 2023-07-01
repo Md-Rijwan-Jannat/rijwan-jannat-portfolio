@@ -7,6 +7,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
+
 const Typewriter = ({ texts, delay = 150, loop = true }) => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,8 +56,8 @@ const Banner = () => {
   return (
     <div className='hero max-h-screen mb-20 bg-gray-300 bg-opacity-10 py-10 px-5 rounded-md'>
       <div className='lg:flex items-center gap-16 justify-between'>
-        <div className='spinner' style={{ backgroundImage: `url(${spinner})`, backgroundPosition: 'top', backgroundRepeat: 'no-repeat', backgroundSize: '300px' }} > </div>
-        <img className='rounded-full shadow-lg shadow-blue-200 w-[300px] lg:w-4/12' src={banner} alt="" />
+        <div className='spinner' style={{ backgroundImage: `url(${spinner})`}} > </div>
+          <img className='rounded-full gradient-animation shadow-lg bg-blue-800 bg-opacity-10 shadow-blue-200 w-[300px] lg:w-4/12' src={banner} alt="" />
         <div className='p-2'>
           <h1 className="mb-2 md:mb-10 text-xl md:text-4xl text-blue-400 font-bold">Hey dear! <br /> This is Rijwan ,<br />Works at{'-'}
             <span className='gradient-animation'> <Typewriter
@@ -77,15 +78,3 @@ const Banner = () => {
 };
 
 export default Banner;
-
-// .container {
-//   position: relative;
-//   width: 100%;
-//   height: 100vh;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
-
-// .
-

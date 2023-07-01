@@ -3,6 +3,9 @@ import SectionTitle from "../../../components/Share/SectionTitle/SectionTitle";
 import { FaBoxes } from 'react-icons/fa'
 import aboutImage from '../../../assets/Images/about.jpg'
 import { motion } from "framer-motion";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export const MyComponent = () => (
     <motion.button
@@ -12,11 +15,14 @@ export const MyComponent = () => (
 )
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <div className="my-16">
             <SectionTitle title={'about me'} icon={<FaBoxes />} />
             <Helmet><title>Rijwan jannat | About</title></Helmet>
-                <div className="lg:flex items-center bg-[#161042] shadow-lg px-5 py-10 mx-5 lg:p-16 rounded-2xl">
+                <div data-aos="fade-up" className="lg:flex space-y-5 items-center bg-[#161042] shadow-lg px-5 py-10 mx-5 lg:p-16 rounded-2xl">
                     <div className="flex flex-col justify-start w-full">
                         <h2 className="uppercase text-2xl text-gray-500 mb-3">From</h2>
                         <p className="text-gray-500 text-xl"> Baroanjul, Noymile road, Shajahanpur, Bogura, Bangladesh</p>
