@@ -226,15 +226,6 @@ const SkillsAndTechnologies = () => {
                                 <FrontEndFeatures image={jwt} title={'jwt'} />
                             </motion.div>
                         </motion.div>
-                        <motion.div variants={item}>
-                            <motion.div
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.9 }}
-                                className="my-card"
-                            >
-                                <FrontEndFeatures image={express} title={'express js'} />
-                            </motion.div>
-                        </motion.div>
                     </motion.div>
                 </TabPanel>
             </Tabs>

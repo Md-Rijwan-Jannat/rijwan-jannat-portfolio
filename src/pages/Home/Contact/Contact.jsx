@@ -33,7 +33,7 @@ const Contact = () => {
                 console.log(result.text);
                 toast.dismiss();
                 from.reset()
-                toast.success('Successfully send email!')
+                toast.success('Email successfully send !')
             }, (error) => {
                 console.log(error.text);
                 toast.error('Something went wrong!')
