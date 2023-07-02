@@ -35,7 +35,7 @@ const About = () => {
                     <p className="text-gray-500 text-xl"> I am studying in Bogura Polytechnic Institute, Bangladesh. Now, I am learning tow technologies, 1st Computer Science Engineering or 2nd Mechanical Engineering</p>
                 </div>
             </div>
-            <div className="lg:flex gap-10 justify-between my-10">
+            <div data-aos="fade-up" className="lg:flex gap-10 justify-between my-10">
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
