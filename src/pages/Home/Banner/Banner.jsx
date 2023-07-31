@@ -1,7 +1,7 @@
 import banner from '../../../assets/Images/banner.png'
 import { FcDownload } from "react-icons/fc";
 import { useEffect, useState } from "react";
-import resume from '../../../assets/rijwan-jannat-resume.pdf'
+import resume from '../../../assets/rijwan-resume.pdf'
 import spinner from '../../../assets/Images/react-removebg-preview.png'
 import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';

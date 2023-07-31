@@ -10,6 +10,7 @@ import Location from "../pages/Home/Location/Location";
 import Contact from "../pages/Home/Contact/Contact";
 
 const router = createBrowserRouter([
+    
     {
         path: "/",
         element: <Main />,
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
                 element: <Contact />
             },
         ]
-    },
+    }
 ]);
 
 export default router;
