@@ -73,8 +73,9 @@ body {
 
 .spinner {
   position: absolute;
-  top: 150px;
+  /* top: 0px; */
   left: 0px;
+  bottom: -50px;
   width: 50%;
   height: 50%;
   background-image: url('./react.png');
@@ -99,16 +100,61 @@ body {
 }
 
 
-@media (max-width: 768px) {
-  .container {
-    height: auto;
-    min-height: 50vh;
-  }
+/* Default styles for all screen sizes */
 
+/* Small screens (phones) */
+@media (max-width: 640px) {
+  /* Add your custom CSS for small screens here */
   .spinner {
-    position: static;
+    position: absolute;
+    /* top: 0px; */
+    left: 80px;
+    bottom: -50px;
     width: 50%;
-    height: auto;
-    margin: 0 auto;
+    height: 50%;
+    background-image: url('./react.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: spin 6s infinite linear;
+    pointer-events: none;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Add your custom CSS for medium screens here */
+  .spinner {
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    bottom: -100px;
+    width: 50%;
+    height: 50%;
+    background-image: url('./react.png');
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: spin 6s infinite linear;
+    pointer-events: none;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Add your custom CSS for large screens here */
+  .spinner {
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    bottom: -50px;
+    width: 50%;
+    height: 50%;
+    background-image: url('./react.png');
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: spin 6s infinite linear;
+    pointer-events: none;
   }
 }

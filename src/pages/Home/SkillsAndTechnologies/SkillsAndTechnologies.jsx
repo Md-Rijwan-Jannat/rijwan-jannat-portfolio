@@ -17,6 +17,8 @@ import express from '../../../assets/Images/express-removebg-preview.png';
 import node from '../../../assets/Images/node-removebg-preview.png';
 import mongoDb from '../../../assets/Images/mongoDb-removebg-preview.png';
 import jwt from '../../../assets/Images/jwt-removebg-preview (2).png';
+import typescript from '../../../assets/Images/Ts-removebg-preview (2).png';
+import redux from '../../../assets/Images/redux-removebg-preview.png';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { useState } from 'react';
 import { Helmet } from 'react-helmet';
@@ -179,6 +181,24 @@ const SkillsAndTechnologies = () => {
                                 className="my-card"
                             >
                                 <FrontEndFeatures image={next_js} title={'next js'} />
+                            </motion.div>
+                        </motion.div>
+                        <motion.div variants={item}>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.9 }}
+                                className="my-card"
+                            >
+                                <FrontEndFeatures image={typescript} title={'typescript'} />
+                            </motion.div>
+                        </motion.div>
+                        <motion.div variants={item}>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.9 }}
+                                className="my-card"
+                            >
+                                <FrontEndFeatures image={redux} title={'redux'} />
                             </motion.div>
                         </motion.div>
                     </motion.div>
