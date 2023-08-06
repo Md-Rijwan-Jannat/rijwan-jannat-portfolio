@@ -1,9 +1,9 @@
 import MyProjects from "../../../components/Share/MyProjects/MyProjects";
 import SectionTitle from "../../../components/Share/SectionTitle/SectionTitle";
 import { CgWebsite } from "react-icons/cg";
-import homepage1 from '../../../assets/Images/summer_camp.png'
-import homepage2 from '../../../assets/Images/sports-toy.png'
-import homepage3 from '../../../assets/Images/chefs.png'
+import homepage1 from '../../../assets/Images/summerHomePage.png'
+import homepage2 from '../../../assets/Images/toysHomePage.png'
+import homepage3 from '../../../assets/Images/chefHomePage.png'
 import { Helmet } from "react-helmet";
 
 const Projects = () => {

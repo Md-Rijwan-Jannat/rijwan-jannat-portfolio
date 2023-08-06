@@ -19,7 +19,7 @@
 
 @keyframes gradientAnimation {
   0% {
-      color: #3e6184;
+      color: #720734;
   }
   10% {
       color: #ef8640;
@@ -31,25 +31,25 @@
       color: #839539;
   }
   40% {
-      color: #4f4987;
+      color: #7a9b45;
   }
   50% {
-      color: #487548;
+      color: #316e31;
   }
   60% {
       color: #569d73;
   }
   70% {
-      color: #45897b;
+      color: #2f524b;
   }
   80% {
-      color: #387787;
+      color: #873849;
   }
   90% {
-      color: #1b5fc5;
+      color: #c51bbd;
   }
   100% {
-      color: #7c7cf3;
+      color: #8787b9;
   }
 }
 
@@ -101,6 +101,21 @@ body {
 
 
 /* Default styles for all screen sizes */
+/* Small screens (phones) */
+@media (max-width: 500px) {
+  /* Add your custom CSS for small screens here */
+  .spinner {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-image: url('./react.png');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: spin 6s infinite linear;
+    pointer-events: none;
+  }
+}
 
 /* Small screens (phones) */
 @media (max-width: 640px) {
@@ -108,8 +123,8 @@ body {
   .spinner {
     position: absolute;
     /* top: 0px; */
-    left: 80px;
-    bottom: -50px;
+    right: 0px;
+    bottom: 130px;
     width: 50%;
     height: 50%;
     background-image: url('./react.png');
@@ -127,8 +142,8 @@ body {
   .spinner {
     position: absolute;
     /* top: 0px; */
-    left: 0px;
-    bottom: -100px;
+    left: 200px;
+    bottom: 410px;
     width: 50%;
     height: 50%;
     background-image: url('./react.png');

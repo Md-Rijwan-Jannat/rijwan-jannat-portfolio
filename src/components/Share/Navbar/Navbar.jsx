@@ -54,7 +54,7 @@ const Navbar = () => {
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
                         >
-                            <Link to={'https://www.linkedin.com/in/md-rijwan-jannat/'} className="bg-gray-300 shadow shadow-blue-50 flex items-center justify-center w-10 h-10 p-2 rounded-md">
+                            <Link to={'https://www.linkedin.com/in/md-rijwan-jannat1'} className="bg-gray-300 shadow shadow-blue-50 flex items-center justify-center w-10 h-10 p-2 rounded-md">
 
                                 <FaLinkedin className="text-blue-500" size={20} />
                             </Link>
