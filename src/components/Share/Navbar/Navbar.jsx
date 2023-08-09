@@ -17,8 +17,8 @@ const Navbar = () => {
     const link = <div className="font-semibold">
         <li><Link to={'/'}><FaHome size={20} className="text-blue-500" /> Home Page</Link></li>
         <li><Link to={'/skills'}><GiSkills size={20} className="text-blue-500" /> Skills</Link></li>
-        <li><Link to={'/about'}><FcAbout size={20} className="text-blue-500" /> About Me</Link></li>
         <li><Link to={'/projects'}><GiHobbitDoor size={20} className="text-blue-500" /> Projects</Link></li>
+        <li><Link to={'/about'}><FcAbout size={20} className="text-blue-500" /> About Me</Link></li>
         <li><Link to={'/location'}><FaSearchLocation size={20} className="text-blue-500" /> Location</Link></li>
         <li><Link to={'/contact'}><FaMailBulk size={20} className="text-blue-500" /> Contact</Link></li>
     </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
                     <label tabIndex={0}>
                         <div className="flex flex-col text-center items-center mx-2 px-4 py-2 rounded-md border-0 bg-slate-100 bg-opacity-10 shadow shadow-black hover:bg-slate-50 hover:bg-opacity-5">
                             <img className="rounded-full w-8 h-8" src={rijwan} alt="" />
-                            <p className="text-[10px] flex flex-col items-center font-bold text-gray-500">Md Rijwan Jannat <FaArrowRight size={10}/></p>
+                            <p className="text-[10px] flex flex-col items-center font-bold text-gray-500">Md Rijwan Jannat <FaArrowRight size={10} /></p>
                         </div>
                     </label>
                     <ul tabIndex={0} className="dropdown-content flex flex-row items-center gap-2 justify-center z-[1] menu p-2 shadow-sm shadow-black bg-opacity-50 bg-[#12104d] text-gray-500 rounded-box w-52">
@@ -54,7 +54,7 @@ const Navbar = () => {
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
                         >
-                            <Link to={'https://www.linkedin.com/in/md-rijwan-jannat1'} className="bg-gray-300 shadow shadow-blue-50 flex items-center justify-center w-10 h-10 p-2 rounded-md">
+                          <Link to={'https://www.linkedin.com/in/md-rijwan-jannat1'} className="bg-gray-300 shadow shadow-blue-50 flex items-center justify-center w-10 h-10 p-2 rounded-md">
 
                                 <FaLinkedin className="text-blue-500" size={20} />
                             </Link>

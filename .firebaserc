@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "rijwan-protfolio"
-  }
+    "default": "personal-portfolio-cc7b6",
+    "y": "personal-portfolio-cc7b6"
+  },
+  "targets": {},
+  "etags": {}
 }

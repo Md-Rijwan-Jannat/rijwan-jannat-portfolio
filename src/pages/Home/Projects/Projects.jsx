@@ -2,7 +2,7 @@ import MyProjects from "../../../components/Share/MyProjects/MyProjects";
 import SectionTitle from "../../../components/Share/SectionTitle/SectionTitle";
 import { CgWebsite } from "react-icons/cg";
 import homepage1 from '../../../assets/Images/summerHomePage.png'
-import homepage2 from '../../../assets/Images/toysHomePage.png'
+import homepage2 from '../../../assets/Images/toysrHomePage.png'
 import homepage3 from '../../../assets/Images/chefHomePage.png'
 import { Helmet } from "react-helmet";
 

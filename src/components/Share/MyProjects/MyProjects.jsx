@@ -13,14 +13,14 @@ const MyProjects = ({ image, name, link1, link2, link3, details }) => {
         <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="card-img flex flex-col items-center bg-[#161042] shadow-lg mb-7 mt-7 px-5 py-10 mx-5 lg:p-16 rounded-2xl"
+            className="flex flex-col items-center space-y-5 bg-[#161042] shadow-lg px-5 py-10  lg:p-16 rounded-2xl"
         >
             <div className="flex flex-col items-center">
-                <div className="flex-none w-full md:w-96 h-96 image-wrapper -translate-y-4   hover:translate-y-150  mx-auto overflow-hidden rounded-xl ">
+                <div className="flex-none w-full md:w-96 h-96 image-wrapper -translate-y-4   hover:translate-y-150 overflow-hidden rounded-xl ">
                     <img
                         src={image}
                         alt="pic"
-                        className="rounded-md hover:-translate-y-[70%]  transform w-full  image transition-all  duration-[5s] ease-in-out "
+                        className="rounded-md hover:-translate-y-[80%]  transform w-full transition-all  duration-[8s] ease-in-out "
                     />
                 </div>
                 <div>

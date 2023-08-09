@@ -42,7 +42,7 @@ const Contact = () => {
 
 
     return (
-        <div className="my-16 m-5">
+        <div className="my-16">
             <SectionTitle title={'Contact'} icon={<FaMailBulk />} />
             <Helmet><title>Rijwan jannat | Contact</title></Helmet>
             <div  data-aos="zoom-in" className="flex flex-col items-center bg-[#161042] shadow-lg py-10  lg:p-16 rounded-2xl">

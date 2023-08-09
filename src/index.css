@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
 .bg {
   color: rgba(40, 35, 35, 0.477);
 }
+
 #sidebar a.active {
   color: rgb(255, 221, 0);
   text-transform: none;
 }
+
 .menu a.active {
   color: yellow;
 }
@@ -19,72 +26,70 @@
 
 @keyframes gradientAnimation {
   0% {
-      color: #720734;
+    color: #720734;
   }
+
   10% {
-      color: #ef8640;
+    color: #ef8640;
   }
+
   20% {
-      color: #b0993c;
+    color: #b0993c;
   }
+
   30% {
-      color: #839539;
+    color: #839539;
   }
+
   40% {
-      color: #7a9b45;
+    color: #7a9b45;
   }
+
   50% {
-      color: #316e31;
+    color: #316e31;
   }
+
   60% {
-      color: #569d73;
+    color: #569d73;
   }
+
   70% {
-      color: #2f524b;
+    color: #2f524b;
   }
+
   80% {
-      color: #873849;
+    color: #873849;
   }
+
   90% {
-      color: #c51bbd;
+    color: #c51bbd;
   }
+
   100% {
-      color: #8787b9;
+    color: #8787b9;
   }
 }
 
 .gradient-animation {
   animation: gradientAnimation 5s linear infinite;
 }
-.align-item{
+
+.align-item {
   align-items: baseline;
 }
 
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
-.container {
+/* .container {
   position: relative;
   width: 70%;
   min-height: 70vh;
   overflow: auto;
-}
+} */
 
-.spinner {
-  position: absolute;
-  /* top: 0px; */
-  left: 0px;
-  bottom: -50px;
-  width: 50%;
-  height: 50%;
-  background-image: url('./react.png');
-  background-size: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  animation: spin 6s infinite linear;
-  pointer-events: none;
-}
+
 
 .banner-button {
   position: relative;
@@ -94,6 +99,7 @@ body {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -102,13 +108,17 @@ body {
 
 /* Default styles for all screen sizes */
 /* Small screens (phones) */
-@media (max-width: 500px) {
+@media (min-width: 375px) and (max-width: 667px) {
+
   /* Add your custom CSS for small screens here */
   .spinner {
+    left: 120px;
+    top: 470px;
     position: absolute;
-    width: 50%;
-    height: 50%;
-    background-image: url('./react.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+    /* background-image: url('./react.png'); */
     background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,16 +128,17 @@ body {
 }
 
 /* Small screens (phones) */
-@media (max-width: 640px) {
+@media (min-width: 668px) and (max-width: 925px) {
+
   /* Add your custom CSS for small screens here */
   .spinner {
     position: absolute;
-    /* top: 0px; */
-    right: 0px;
-    bottom: 130px;
-    width: 50%;
-    height: 50%;
-    background-image: url('./react.png');
+    top: 365px;
+    left: 65px;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    /* background-image: url('./react.png'); */
     background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,17 +148,18 @@ body {
 }
 
 /* Medium screens (tablets) */
-@media (min-width: 641px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
+
   /* Add your custom CSS for medium screens here */
   .spinner {
     position: absolute;
-    /* top: 0px; */
-    left: 200px;
-    bottom: 410px;
-    width: 50%;
-    height: 50%;
-    background-image: url('./react.png');
-    background-size: 300px;
+    top: 440px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    /* background-image: url('./react.png'); */
+    background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;
     animation: spin 6s infinite linear;
@@ -156,16 +168,18 @@ body {
 }
 
 /* Large screens (desktops) */
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 800px) and (max-width: 2400px) {
+
   /* Add your custom CSS for large screens here */
   .spinner {
     position: absolute;
     /* top: 0px; */
-    left: 0px;
-    bottom: -50px;
-    width: 50%;
-    height: 50%;
-    background-image: url('./react.png');
+    left: 180px;
+    bottom: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    /* background-image: url('./react.png'); */
     background-size: 300px;
     background-position: center;
     background-repeat: no-repeat;
