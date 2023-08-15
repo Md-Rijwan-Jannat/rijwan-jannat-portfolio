@@ -66,7 +66,7 @@ const SkillsAndTechnologies = () => {
                 <TabList className={'flex gap-10 items-center justify-center mb-7'}>
                     <Tab className={'border-none'}>
                         <p
-                            className={`btn border-0 bg-slate-100 bg-opacity-10 shadow shadow-black hover:bg-slate-50 hover:bg-opacity-5 text-gray-500 ${activeButton === 'category1' ? 'text-green-600' : ''
+                            className={`btn border-0 bg-slate-100 bg-opacity-10 shadow-sm shadow-blue-500 hover:shadow hover:shadow-green-500  hover:bg-slate-50 hover:bg-opacity-5 text-gray-500 ${activeButton === 'category1' ? 'text-green-600 shadow-green-500' : ''
                                 }`}
                             onClick={() => handleButtonClick('category1')}
                         >
@@ -76,7 +76,7 @@ const SkillsAndTechnologies = () => {
                     </Tab>
                     <Tab className={'border-none'}>
                         <p
-                            className={`btn border-0 bg-slate-100 bg-opacity-10 shadow shadow-black hover:bg-slate-50 hover:bg-opacity-5 text-gray-500 ${activeButton === 'category2' ? 'text-green-600' : ''
+                            className={`btn border-0 bg-slate-100 bg-opacity-10 shadow-sm shadow-blue-500 hover:shadow hover:shadow-green-500  hover:bg-slate-50 hover:bg-opacity-5 text-gray-500 ${activeButton === 'category2' ? 'text-green-600 shadow-green-500' : ''
                                 }`}
                             onClick={() => handleButtonClick('category2')}
                         >

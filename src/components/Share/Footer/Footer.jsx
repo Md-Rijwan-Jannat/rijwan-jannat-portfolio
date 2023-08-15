@@ -80,8 +80,8 @@ const Footer = () => {
             <hr className='border-gray-600 my-8' />
             <div className='divider divide-gray-600'>
                 <div className='flex flex-wrap gap-3'>
-                <FaCopyright size={20} />
-                <p className=' '>  {currentYear} rijwan jannat, all rights reserved</p>
+                    <FaCopyright size={20} />
+                    <p className=' '>  {currentYear} rijwan jannat, all rights reserved</p>
                 </div>
             </div>
         </div>

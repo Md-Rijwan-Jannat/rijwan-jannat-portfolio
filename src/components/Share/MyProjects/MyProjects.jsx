@@ -32,7 +32,7 @@ const MyProjects = ({ image, name, link1, link2, link3, details }) => {
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
-                    className="p-2 shadow-sm text-sm lg:text-lg rounded-md px-4 py-1 shadow-black bg-opacity-50 bg-[#12104d] text-gray-500"
+                    className="p-2 shadow-sm text-sm lg:text-lg rounded-md px-4 py-1 shadow-blue-500 hover:shadow hover:shadow-blue-500 bg-opacity-50 bg-[#12104d] text-gray-500"
                 >
                     <Link className="" to={link1}>
                         Client Side
@@ -41,7 +41,7 @@ const MyProjects = ({ image, name, link1, link2, link3, details }) => {
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
-                    className="p-2 shadow-sm text-sm lg:text-lg rounded-md px-4 py-1 shadow-black bg-opacity-50 bg-[#12104d] text-gray-500"
+                    className="p-2 shadow-sm text-sm lg:text-lg rounded-md px-4 py-1 shadow-blue-500 hover:shadow hover:shadow-blue-500 bg-opacity-50 bg-[#12104d] text-gray-500"
                 >
                     <Link className="" to={link2}>
                         Server Side
@@ -50,7 +50,7 @@ const MyProjects = ({ image, name, link1, link2, link3, details }) => {
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
-                    className="p-2 shadow-sm text-sm lg:text-lg rounded-md px-4 py-1 shadow-black bg-opacity-50 bg-[#12104d] text-gray-500"
+                    className="p-2 shadow-sm text-sm lg:text-lg rounded-md px-4 py-1 shadow-blue-500 hover:shadow hover:shadow-blue-500 bg-opacity-50 bg-[#12104d] text-gray-500"
                 >
                     <Link className="" to={link3}>
                         Live Side
