@@ -73,14 +73,14 @@ const Contact = () => {
                 </form>
 
                 <div className=" space-y-5 pl-5 mt-10">
-                    <div className="lg:flex lg:gap-5">
+                    <div className="flex gap-5 items-center">
                         <MdEmail className="bg-gray-300 text-gray-400 bg-opacity-5 shadow shadow-blue-500 flex items-center w-10 h-10 p-2 rounded-md" size={30} />
                         <div>
                             <h2 className="text-xl text-gray-500 uppercase mb-2 flex gap-3"> Send Your mail</h2>
                             <a className="text-gray-400 link link-primary" href="mailto:rijwanjannat36@gmail.com">rijwanjannat36@gmail.com</a>
                         </div>
                     </div>
-                    <div className="lg:flex lg:gap-5">
+                    <div className="flex gap-5 items-center">
                         <AiFillPhone className="bg-gray-300 text-gray-300 bg-opacity-5 shadow shadow-blue-500 flex items-center w-10 h-10 p-2 rounded-md" size={30} />
                         <div>
                             <h2 className="text-xl text-gray-500 uppercase mb-2 flex gap-3">Call me</h2>

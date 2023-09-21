@@ -2,7 +2,7 @@
 import { GiSkills } from 'react-icons/gi';
 import { motion } from 'framer-motion';
 import SectionTitle from '../../../components/Share/SectionTitle/SectionTitle';
-import FrontEndFeatures from '../../../components/Share/FrontEndFeatures/FrontEndFeatures';
+import Technologies from '../../../components/Share/Technologies/Technologies';
 import html from '../../../assets/Images/html-removebg-preview.png';
 import css from '../../../assets/Images/css-removebg-preview.png';
 import react from '../../../assets/Images/react-removebg-preview.png';
@@ -99,7 +99,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={html} title={'html'} />
+                                <Technologies image={html} title={'html'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -108,7 +108,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={css} title={'css'} />
+                                <Technologies image={css} title={'css'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -117,7 +117,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={react} title={'react'} />
+                                <Technologies image={react} title={'react'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -126,7 +126,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={javascript} title={'javascript'} />
+                                <Technologies image={javascript} title={'javascript'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -135,7 +135,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={tailwind} title={'tailwind css'} />
+                                <Technologies image={tailwind} title={'tailwind css'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -144,7 +144,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={react_router} title={'react router'} />
+                                <Technologies image={react_router} title={'react router'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -153,7 +153,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={bootstrap} title={'bootstrap'} />
+                                <Technologies image={bootstrap} title={'bootstrap'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -162,7 +162,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={firebase} title={'firebase'} />
+                                <Technologies image={firebase} title={'firebase'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -171,7 +171,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={query} title={'tanStack query'} />
+                                <Technologies image={query} title={'tanStack query'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -180,7 +180,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={next_js} title={'next js'} />
+                                <Technologies image={next_js} title={'next js'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -189,7 +189,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={typescript} title={'typescript'} />
+                                <Technologies image={typescript} title={'typescript'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -198,7 +198,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={redux} title={'redux'} />
+                                <Technologies image={redux} title={'redux'} />
                             </motion.div>
                         </motion.div>
                     </motion.div>
@@ -216,7 +216,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={express} title={'express.js'} />
+                                <Technologies image={express} title={'express.js'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -225,7 +225,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={node} title={'node.js'} />
+                                <Technologies image={node} title={'node.js'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -234,7 +234,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={mongoDb} title={'mongoDb'} />
+                                <Technologies image={mongoDb} title={'mongoDb'} />
                             </motion.div>
                         </motion.div>
                         <motion.div variants={item}>
@@ -243,7 +243,7 @@ const SkillsAndTechnologies = () => {
                                 whileTap={{ scale: 0.9 }}
                                 className="my-card"
                             >
-                                <FrontEndFeatures image={jwt} title={'jwt'} />
+                                <Technologies image={jwt} title={'jwt'} />
                             </motion.div>
                         </motion.div>
                     </motion.div>

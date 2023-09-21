@@ -1,46 +1,40 @@
 import {
     createBrowserRouter,
-} from "react-router-dom";
-import Home from "../pages/Home/Home/Home";
+  } from "react-router-dom";
 import Main from "../layout/Main";
 import SkillsAndTechnologies from "../pages/Home/SkillsAndTechnologies/SkillsAndTechnologies";
-import Projects from "../pages/Home/Projects/Projects";
 import About from "../pages/Home/About/About";
-import Location from "../pages/Home/Location/Location";
 import Contact from "../pages/Home/Contact/Contact";
-
-const router = createBrowserRouter([
-    
+import Location from "../pages/Home/Location/Location";
+import Projects from "../pages/Home/Projects/Projects";
+  
+  const router = createBrowserRouter([
     {
-        path: "/",
-        element: <Main />,
-        children: [
-            {
-                path: '/',
-                element: <Home />
-            },
-            {
-                path: 'skills',
-                element: <SkillsAndTechnologies />
-            },
-            {
-                path: 'projects',
-                element: <Projects />
-            },
-            {
-                path: 'about',
-                element: <About />
-            },
-            {
-                path: 'location',
-                element: <Location />
-            },
-            {
-                path: 'contact',
-                element: <Contact />
-            },
-        ]
-    }
-]);
+      path: "/",
+      element: <Main></Main>,
+      children:[
+        {
+            path:<SkillsAndTechnologies></SkillsAndTechnologies>,
+            element:'skills'
+        },
+        {
+            path:<About></About>,
+            element:'about'
+        },
+        {
+            path:<Contact></Contact>,
+            element:'contact'
+        },
+        {
+            path:<Location></Location>,
+            element:'location'
+        },
+        {
+            path:<Projects></Projects>,
+            element:'project'
+        },
+      ]
+    },
+  ]);
 
-export default router;
+  export default router ;

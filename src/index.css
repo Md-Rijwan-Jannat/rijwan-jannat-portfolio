@@ -187,3 +187,8 @@ body {
     pointer-events: none;
   }
 }
+
+.shadow_blue:hover{
+  box-shadow:  #1d74d1 0px 2px 5px 6px,  #1d74d1 0px 2px 5px 6px;
+ background-color: #071438;
+}

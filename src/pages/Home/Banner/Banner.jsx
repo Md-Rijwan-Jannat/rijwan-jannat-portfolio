@@ -1,7 +1,6 @@
-import banner from '../../../assets/Images/banner.png'
+import banner from '../../../assets/rijwan-photo/rijwan-.png'
 import { FcDownload } from "react-icons/fc";
 import { useEffect, useState } from "react";
-// import resume from '../../../assets/Rijwan_MERN Stack Developer.pdf'
 import spinner from '../../../assets/Images/react-removebg-preview.png'
 import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -56,8 +55,8 @@ const Banner = () => {
   return (
     <div className='hero md:max-h-screen mb-20 bg-gray-300 bg-opacity-10 py-10 px-5 rounded-md'>
       <div className='lg:flex items-center gap-16 justify-between'>
-        <div className='spinner' style={{ backgroundImage: `url(${spinner})`}} > </div>
-          <img className='rounded-full w-full gradient-animation shadow-lg hover:shadow-2xl hover:shadow-blue-500 transition duration-1000 ease-in-out bg-opacity-10 shadow-blue-300 md:w-4/12' src={banner} alt="" />
+        <div className='spinner ' style={{ backgroundImage: `url(${spinner})`}} > </div>
+          <img className='rounded-full w-full h-full gradient-animation shadow-lg hover:shadow-2xl hover:shadow-blue-500 transition duration-1000 ease-in-out bg-opacity-10 shadow-blue-300 md:w-4/12' src={banner} alt="" />
         <div className='p-2'>
           <h1 className="mb-2 md:mb-10 text-xl md:text-4xl text-blue-400 font-bold">Hey dear! <br /> This is Rijwan ,<br />Works at{'-'}
             <span className='gradient-animation'> <Typewriter

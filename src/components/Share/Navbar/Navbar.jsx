@@ -1,7 +1,7 @@
 import { CiMenuKebab } from "react-icons/ci";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import rijwan from '../../../assets/Images/Rijwan_profile.jpg'
+import rijwan from '../../../assets/rijwan-photo/Rijwan_profile.jpg'
 import { FaArrowRight, FaFacebookSquare, FaGithubSquare, FaHome, FaInstagramSquare, FaLinkedin, FaMailBulk, FaSearchLocation } from "react-icons/fa";
 import { FcAbout } from "react-icons/fc";
 import { GiHobbitDoor, GiSkills } from "react-icons/gi";
